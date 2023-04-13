@@ -52,16 +52,19 @@ public class TV {
         if(isOn && this.volume >0){
             this.volume -=1;
         }
-
     }
 
-    public void printall(){
-        System.out.println(this.channel);
-        System.out.println(this.isOn);
-        System.out.println(this.volume);
+    public int getChannel() {
+        return channel;
     }
 
+    public int getVolume() {
+        return volume;
+    }
 
+    public boolean isOn() {
+        return isOn;
+    }
 }
 
 

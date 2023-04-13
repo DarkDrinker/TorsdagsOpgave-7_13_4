@@ -1,0 +1,9 @@
+Follow-up questions 1: Instanceof is a way of checking if an object is an instance of particular class or interface. In our case first a interface and then the abstract class Animal.
+
+Follow-up questions 2: The abstract class is a class that cannot be instantiated directly, but can be subclassed to provide implementations of its methods.
+
+Follow-up questions 3: No you cant have a non-abstract class with abstract methods. as it is a feature for the abstract class and interfaces.
+When you declare a method as abstract it comes with no implementation and must be implemented in any non-abstract classes extending from the abstract class.
+so basically the abstract class functions as a schematic of what needs to be in the class extending from it.
+
+Follow-up questions 4: @override indicates what methods from the superclass(what we extended from) we will override.
