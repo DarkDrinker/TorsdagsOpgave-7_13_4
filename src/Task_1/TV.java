@@ -18,7 +18,7 @@ public class TV {
         if(this.isOn && (requestedChannel > 1 && requestedChannel < 100)) {
             this.channel = requestedChannel;
         } else {
-            System.out.println("has to be between 1-100");
+            System.out.println("has to be between 1-100 eller tv ikker er tændt");
         }
         }
 
@@ -26,31 +26,31 @@ public class TV {
         if(isOn && (amount > 1 && amount < 100)){
             this.volume = amount;
         } else{
-            System.out.println("has to be between 1-100");
+            System.out.println("has to be between 1-100 eller tv ikke er tændt");
         }
     }
 
         public void channelDown() {
             if(this.channel > 0 && isOn) {
-                this.channel -= 1;
+                this.channel--;
             }
     }
 
         public void channelUp() {
             if(this.channel < 100 && isOn) {
-                this.channel += 1;
+                this.channel++;
             }
     }
 
     public void volumeUp(){
         if(isOn && this.volume < 100){
-            this.volume += 1;
+            this.volume++;
         }
     }
 
     public void volumeDown(){
         if(isOn && this.volume >0){
-            this.volume -=1;
+            this.volume--;
         }
     }
 

@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30381e1b-ed5d-4f9c-bc6c-314416b2a037" name="Changes" comment="            First edit">
-      <change afterPath="$PROJECT_DIR$/src/Task_1/TVTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/EdibleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_3/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task_1/TVTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Torsdagsopgave_7_13_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Torsdagsopgave_7_13_4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task_1/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_1/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_1/TVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/TVTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +22,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -63,7 +55,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "node.js.detected.package.eslint": "true",
@@ -73,7 +66,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,12 +74,16 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Task_3" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Task_1" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Task_1" />
+      <recent name="Task_3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TVTest2.test">
     <configuration name="EdibleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task_3.EdibleTest" />
       <module name="Torsdagsopgave_7_13_4" />
@@ -100,8 +97,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TorsdagsOpgave-7_13_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TVTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TVTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TorsdagsOpgave-7_13_4" />
+      <option name="PACKAGE_NAME" value="Task_1" />
+      <option name="MAIN_CLASS_NAME" value="Task_1.TVTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TVTest2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TorsdagsOpgave-7_13_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task_1" />
+      <option name="MAIN_CLASS_NAME" value="Task_1.TVTest2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TVTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TorsdagsOpgave-7_13_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TVTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TVTest2.test" />
+        <item itemvalue="JUnit.TVTest2" />
+        <item itemvalue="JUnit.TVTest.test" />
+        <item itemvalue="JUnit.TVTest" />
         <item itemvalue="Application.EdibleTest" />
       </list>
     </recent_temporary>
